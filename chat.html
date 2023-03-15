@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Talk</title>
+    <title>Chat - Kokoa Talk</title>
 </head>
-<body>
-    <div class="status-bar">
+<body class="chat-screen">
+    <div class="status-bar chat-screen">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fa-solid fa-wifi"></i>
@@ -23,19 +23,22 @@
         </div>
     </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">
-            If you have a Kokoa Account, log in with your email or phone number.
-        </p>
+    <header class="alt-header chat-screen">
+        <div class="alt-header__column">
+            <a href="more.html"><i class="fa-solid fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">니꼬</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="Email or phone number">
-        <input type="password" placeholder="Password">
-        <input type="button" value="Log In" onClick="window.open('friends.html')">
-        <a href="#">Find Kokoa Account or Password</a>
-    </form>
+    <main class="main-screen">
+        
+    </main>
 
     <script 
         src="https://kit.fontawesome.com/cee8a7d245.js" 

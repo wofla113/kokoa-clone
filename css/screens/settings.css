@@ -1,0 +1,27 @@
+.settings-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.settings-setting {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.settings-setting-column:last-child {
+    opacity: 0.5;
+}
+
+.settings-setting span {
+    font-size: 24px;
+}
+
+.settings-setting i {
+    margin-right: 30px;
+    opacity: 0.8;
+}
