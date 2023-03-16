@@ -1,25 +1,25 @@
-.screen-header { 
-    background-color: white;
-    position: fixed;
-    top:25px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--horizontal-space);
-    margin-bottom: 15px;
-    padding-top: 27px;
+.screen-header {
+  position: fixed;
+  top: 25px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+  padding-top: 27px;
 }
 
 .screen-header__title {
-    font-size: 28px;
-    font-weight: 600;
+  font-size: 28px;
+  font-weight: 600;
 }
 
 .screen-header__icons span {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 
 .screen-header__icons {
-    position: relative;
+  position: relative;
 }
